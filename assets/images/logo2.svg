@@ -1,0 +1,22 @@
+<svg
+  width="148"
+  height="48"
+  viewBox="0 0 200 60"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background (optional) -->
+
+
+  <!-- Text -->
+  <text
+    x="10"
+    y="40"
+    font-family="'Poppins', sans-serif"
+    font-size="36"
+    fill="green"
+    font-weight="bold"
+  >
+    Wealthy
+  </text>
+</svg>
