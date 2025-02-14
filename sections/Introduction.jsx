@@ -24,7 +24,7 @@ export default function Introduction() {
   return (
     <section className="py-24 lg:py-40 lg:px-16">
       <div className="container">
-        <div className="sticky top-20 md:top-28 lg:top-40">
+        <div className="sticky top-20 md:top-28 lg:top-40 mx-12">
           <div className="flex items-center justify-center mb-10">
             <Tag text="Introducing Wealthy" color="lime-600" />
           </div>
@@ -34,7 +34,10 @@ export default function Introduction() {
               {words.map((word, wordIndex) => (
                 <span
                   key={wordIndex}
-                  className={twMerge("transition-all duration-1000 text-black/15",wordIndex < currentWord && "text-black")}
+                  className={twMerge(
+                    "transition-all duration-1000 text-black/15",
+                    wordIndex < currentWord && "text-black"
+                  )}
                 >{`${word} `}</span>
               ))}
             </span>

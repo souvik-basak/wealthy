@@ -68,7 +68,7 @@ export default function Hero() {
             ✨ $7.5M+ Transaction Processed
           </div>
         </div>
-        <h1 className="text-6xl font-medium text-center mt-6 md:text-7xl lg:text-8xl lg:mx-24">
+        <h1 className="text-6xl font-medium text-center mt-6 md:text-7xl lg:text-8xl mx-32">
           Track, Analyze, and Optimize Your Expenses with AI.
         </h1>
         <p className="text-center text-neutral-500 text-xl mt-8 max-w-2xl mx-auto">

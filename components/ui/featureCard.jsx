@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FeatureCard({ text, para, image }) {
   return (
-    <div className="bg-slate-100 border border-black/10 p-4 rounded-3xl flex flex-col items-center">
+    <div className="bg-slate-100 h-80 border border-black/10 p-4 rounded-3xl flex flex-col items-center justify-center">
       <div className="h-32 aspect-video relative overflow-hidden rounded-lg">
         <Image
           src={image}

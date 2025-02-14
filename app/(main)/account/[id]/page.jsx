@@ -18,7 +18,7 @@ const AccountsPage = async ({ params }) => {
   const { transactions, ...account } = accountData;
 
   return (
-    <div className="space-y-8 px-5">
+    <div className="space-y-8 lg:px-16 px-2 md:px-4">
       <div className=" flex gap-4 items-end justify-between">
         <div>
           <h1 className="text-5xl sm:text-6xl gradient-title capitalize">

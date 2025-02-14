@@ -79,7 +79,7 @@ export default function Features() {
           {featureList.map((feature, index) => (
             <div
               key={index}
-              className="relative"
+              className="relative "
               onMouseEnter={() => setHoveredFeature(index)}
               onMouseLeave={() => setHoveredFeature(null)}
             >
@@ -109,7 +109,7 @@ export default function Features() {
           ))}
 
           {/* High-Level Encryption Card */}
-          <div className="bg-slate-100 border border-black/10 p-6 rounded-3xl group">
+          <div className="bg-slate-100 border border-black/10 px-10 py-2 rounded-3xl group h-80 flex items-center justify-center flex-col">
             <div className="h-34 aspect-video relative overflow-hidden rounded-lg flex items-center justify-center ">
               <p className="text-3xl font-semibold flex flex-col justify-center text-center text-black/50 lg:pl-4 group-hover:text-black/30 transition-all duration-500">
                 High-level encryption for{" "}
@@ -135,7 +135,7 @@ export default function Features() {
             </p>
           </div>
         </div>
-        <div className="mt-8 flex flex-wrap gap-3 justify-center">
+        <div className="mt-8 flex flex-wrap gap-3 justify-center mx-8">
           {features.map((feature, index) => (
             <div
               key={index}
