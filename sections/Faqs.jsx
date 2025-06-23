@@ -55,7 +55,7 @@ const faqs = [
 export default function Faqs() {
   const [selectedIndex, setSelectedIndex] = useState()
   return (
-    <section className="py-20">
+    <section className="py-20 cursor-default">
       <div className="container px-4 md:pl-14">
         <div className="flex justify-center">
           <Tag text="Faqs" />

@@ -24,7 +24,7 @@ export default function CallToAction() {
     }
   }, [isHovered]);
   return (
-    <section className="py-24">
+    <section className="py-12 overflow-x-clip">
       <div className="overflow-x-clip p-4 flex">
         <motion.div
           ref={scope}
@@ -33,9 +33,14 @@ export default function CallToAction() {
           className="flex flex-none gap-16 pr-16 text-7xl md:text-8xl font-medium group"
         >
           {Array.from({ length: 10 }).map((_, i) => (
-            <div key={i} className="flex items-center gap-16 hover:text-lime-600">
-              <span className="text-lime-600 text-7xl">&#10038;</span>
-              <span className="">Try it for free</span>
+            <div
+              key={i}
+              className="flex items-center gap-16 transition-all duration-500 cursor-default text-8xl"
+            >
+              <span className="text-lime-600 hover:text-black">&#10038;</span>
+              <span className="hover:text-lime-600 transform scale-y-[2]">
+                Try it for free
+              </span>
             </div>
           ))}
         </motion.div>

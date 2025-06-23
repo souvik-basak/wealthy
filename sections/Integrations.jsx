@@ -21,7 +21,7 @@ const featureList = [
 
 export default function Integrations() {
   return (
-    <section className="py-24 px-4 md:px-6 lg:px-8 overflow-hidden">
+    <section className="py-12 px-4 md:px-6 lg:px-8 overflow-hidden cursor-default">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="lg:ml-20">

@@ -185,7 +185,7 @@ const Navbar = ()=> {
                   initial={{ height: 0 }}
                   animate={{ height: "auto" }}
                   exit={{ height: 0 }}
-                  className="overflow-hidden lg:hidden"
+                  className="overflow-hidden md:hidden"
                 >
                   <div className="flex flex-col items-center py-4">
                     <SignedOut>
@@ -230,6 +230,7 @@ const Navbar = ()=> {
                             className="rounded-full px-2 font-medium md:inline-flex items-center"
                           >
                             <LayoutDashboard size={18} />
+                            <p>Dashboard</p>
                           </Button>
                         </Link>
 
@@ -239,6 +240,7 @@ const Navbar = ()=> {
                         >
                           <Button className="rounded-full px-2 font-medium md:inline-flex items-center">
                             <PenBox size={18} />
+                            <p>Create Transaction</p>
                           </Button>
                         </Link>
 

@@ -64,7 +64,7 @@ export default function Features() {
   const [hoveredFeature, setHoveredFeature] = useState(null);
 
   return (
-    <section className="py-24 px-4 md:px-6 lg:px-8">
+    <section className="py-12 px-4 md:px-6 lg:px-8 cursor-default">
       <div className="container">
         <div className="flex justify-center items-center">
           <Tag text="Features" />
@@ -84,13 +84,13 @@ export default function Features() {
               onMouseLeave={() => setHoveredFeature(null)}
             >
               {/* Hover Image - Appears above the hovered card */}
-              {hoveredFeature === index && (
+              {/* {hoveredFeature === index && (
                 <motion.div
                   initial={{ opacity: 0, y: 100, x: -10 }}
                   animate={{ opacity: 1, y: -10, x: -10 }}
                   exit={{ opacity: 0, y: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="absolute top-[-110px] left-1/2 transform -translate-x-1/2 z-10"
+                  className="absolute top-[-110px] left-1/2 transform  z-10"
                 >
                   <Image
                     src={feature.hoverImage}
@@ -98,7 +98,7 @@ export default function Features() {
                     alt="Feature Hover Image"
                   />
                 </motion.div>
-              )}
+              )} */}
 
               <FeatureCard
                 text={feature.text}

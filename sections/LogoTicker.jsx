@@ -28,7 +28,7 @@ const logos = [
 
 export default function LogoTicker() {
   return (
-    <section className="py-24 overflow-x-clip">
+    <section className="py-12 overflow-x-clip cursor-default">
       <div className="container">
         <h3 className="text-center text-black/60 text-xl mx-4">
           Already chosen by these market leaders

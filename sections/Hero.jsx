@@ -23,13 +23,13 @@ export default function Hero() {
 
   return (
     <section
-      className="py-24 lg:py-12 overflow-x-clip"
+      className="py-12 overflow-x-clip items-center"
       style={{
         cursor: `url(${cursorYouImage.src}), auto`,
       }}
     >
       <div className="container relative">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 100, x: -100 }}
           drag
           className="absolute -left-32 top-16 hidden lg:block"
@@ -62,13 +62,13 @@ export default function Hero() {
           className="absolute right-80 -top-4 hidden lg:block"
         >
           <Pointer name="Bryan" color="red" />
-        </motion.div>
+        </motion.div> */}
         <div className="flex justify-center">
           <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
             ✨ $7.5M+ Transaction Processed
           </div>
         </div>
-        <h1 className="text-6xl font-medium text-center mt-6 md:text-7xl lg:text-8xl mx-32">
+        <h1 className="text-4xl font-medium text-center mt-6 md:text-7xl lg:text-8xl mx-2 md:mx-4 lg:mx-8 xl:mx-16 2xl:mx-32">
           Track, Analyze, and Optimize Your Expenses with AI.
         </h1>
         <p className="text-center text-neutral-500 text-xl mt-8 max-w-2xl mx-auto">
